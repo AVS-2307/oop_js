@@ -7,8 +7,12 @@ const heroes = ['Bowman',
 
 export default class Character {
     constructor(name, type) {
-      if (typeof name !== 'string' || typeof type !== 'string') {
-        throw Error('Name and/or Type should be string');
+      if (typeof name !== 'string' ) {
+        throw Error('Name should be string');
+      }
+
+      if (typeof type !== 'string') {
+        throw Error('Type should be string');
       }
 
       if (heroes.includes(type) != true) {
