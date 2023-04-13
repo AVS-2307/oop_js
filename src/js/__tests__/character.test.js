@@ -57,7 +57,7 @@ test('Получим ошибку типа', () => {
 
 test('Получим ошибку типа2', () => {
     const description = () => new Character('Nick', '15');
-    expect(description).toThrow('Name and/or Type should be string');
+    expect(description).toThrow('Type should be one of this: Bowman, Daemon, Magician, Swordsman, Undead, Zombie');
 });
 
 test('нанесение урона', () => {

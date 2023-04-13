@@ -5,11 +5,11 @@ import Swordsman from './swordsman.js';
 import Undead from './undead.js';
 import Zombie from './zombie.js';
 
-const bowman = new Bowman('Bowman1', 'Bowman');
-const swordsman = new Swordsman('Swordsman1','Swordsman');
-const magician = new Magician('Magician1', 'Magician');
-const udead = new Undead('Undead1', 'Undead');
-const zombie = new Zombie('Zombie1', 'Zombie');
-const daemon = new Daemon('Daemon1', 'Daemon');
+const bowman = new Bowman('Nick', 'Bowman');
+const swordsman = new Swordsman('John','Swordsman');
+const magician = new Magician('Alex', 'Magician');
+const udead = new Undead('Grade', 'Undead');
+const zombie = new Zombie('Dead', 'Zombie');
+const daemon = new Daemon('Devil', 'Daemon');
 
 console.log(bowman, swordsman, magician, udead, zombie, daemon);
